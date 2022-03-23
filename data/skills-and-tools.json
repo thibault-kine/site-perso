@@ -1,0 +1,23 @@
+{
+    "skills": [
+        { "name": "HTML5", "imgDir": "TBD", "skillLvl": "3" },
+        { "name": "CSS3", "imgDir": "TBD", "skillLvl": "3" },
+        { "name": "PHP", "imgDir": "TBD", "skillLvl": "2" },
+        { "name": "MySQL", "imgDir": "TBD", "skillLvl": "1" },
+        { "name": "Bootstrap", "imgDir": "TBD", "skillLvl": "1" },
+        { "name": "JavaScript", "imgDir": "TBD", "skillLvl": "1" },
+        { "name": "jQuery", "imgDir": "TBD", "skillLvl": "1" },
+        { "name": "JSON", "imgDir": "TBD", "skillLvl": "1" },
+        { "name": "Python", "imgDir": "TBD", "skillLvl": "2" },
+        { "name": "C#", "imgDir": "TBD", "skillLvl": "2" },
+        { "name": "C++", "imgDir": "TBD", "skillLvl": "2" }
+    ],
+
+    "tools": [
+        { "name": "Unity", "imgDir": "TBD", "skillLvl": "2" },
+        { "name": "Unreal Engine 4", "imgDir": "TBD", "skillLvl": "1" },
+        { "name": "Visual Studio Code", "imgDir": "TBD", "skillLvl": "3" },
+        { "name": "Suite Office 365", "imgDir": "TBD", "skillLvl": "2" },
+        { "name": "Suite JetBrains", "imgDir": "TBD", "skillLvl": "3" }
+    ]
+}

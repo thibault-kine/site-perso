@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+}
+
+#title {
+    font-family: Augustus;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
