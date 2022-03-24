@@ -1,15 +1,63 @@
+@import url(fonts.css);
+
 * {
     margin: 0;
     padding: 0;
 }
 
+/* === HEADER === */
+
 header {
+    font-family: 'JetBrains Mono';
+    font-weight: bold;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 0 0 15px 15px;
+    padding: 0.5em;
+    user-select: none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#theme-select-form {
+    width: 20%;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#theme-select-form * {
+    width: 100%;
 }
 
 #title {
-    font-family: Augustus;
+    font-family: "JetBrains Mono";
     font-weight: bold;
     font-size: larger;
     text-align: center;
+}
+
+/* === CARDS === */
+
+#skills-container, #tools-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    width: fit-content;
+    padding: 1em;
+}
+
+.card img {
+    width: 5em;
 }

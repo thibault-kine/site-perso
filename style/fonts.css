@@ -1,4 +1,4 @@
 @font-face {
-    font-family: Augustus;
-    src: url(fonts/Augustus.ttf);
+    font-family: 'JetBrains Mono';
+    src: url(fonts/JetBrainsMono/JetBrainsMono-Regular.ttf) format('truetype');
 }
