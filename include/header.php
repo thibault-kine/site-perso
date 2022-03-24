@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,27 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thibault Kine</title>
 
+    <!-- === INCLUDES === -->
+    <?php
+    include_once "include/classes/ContentGenerator.php";
+    ?>
+    
     <!-- === SCRIPTS === -->
     <script src="scripts/themeManager.js"></script>
     <script src="scripts/skillsAndToolsgenerator.js"></script>
+    <script src="scripts/generateInfobox.js"></script>
 
     <!-- === STYLESHEETS === -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediaQueries.css">
     
 </head>
 <body>
 
 <header>
-    <form method="post" id="theme-select-form">
-        <label for="theme-selector">Thème:</label>
-        <select name="theme-selector" id="theme-selector">
-            <option value="auto">Automatique (par défaut)</option>
-            <option value="light">Clair</option>
-            <option value="dark">Sombre</option>
-        </select>
-        <button type="button" id="apply-theme">Appliquer</button>
-    </form>
-
     <span id="title"><a href="index.php">Thibault <br> Kine</a></span>
 
     <div id="header-links">

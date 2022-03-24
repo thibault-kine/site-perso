@@ -24,7 +24,7 @@ header a {
 }
 
 #theme-select-form {
-    width: 20%;
+    width: 15em;
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
@@ -42,19 +42,11 @@ header a {
     transition-duration: 0.5s;
 }
 
-#theme-select-form *:not(label):hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
 #title {
     font-family: "JetBrains Mono";
     font-weight: bold;
     font-size: larger;
     text-align: center;
-}
-
-#title * {
-    color: black;
 }
 
 #header-links * {
@@ -67,9 +59,7 @@ header a {
     transition-duration: 0.5s;
 }
 
-#header-links *:hover {
-    background-color: rgba(255, 255, 255, 0.4);
-}
+
 
 /* === CARDS === */
 
@@ -129,6 +119,10 @@ header a {
 
 p {
     font-family: 'Roboto Mono';
+}
+
+h1 {
+    font-size: 3em;
 }
 
 h1, h2 {
@@ -191,6 +185,7 @@ article a {
 }
 
 .info-box {
+    margin: 1em;
     display: flex;
     flex-direction: row;
     border-radius: 2em;
@@ -203,6 +198,7 @@ article a {
     width: 1.5em;
     height: 1.5em;
     opacity: 50%;
+    align-self: center;
 }
 
 .info-box div {

@@ -1,3 +1,50 @@
+header {
+    background-color: rgb(49, 49, 49);
+}
+
+#header-links *:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#theme-select-form *:not(label) {
+    background-color: rgb(78, 78, 78);
+}
+
+#theme-select-form *:not(label):hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 body {
-    background-color: grey;
+    background-image: linear-gradient(
+        0deg,
+        rgb(68, 25, 68),
+        rgb(23, 37, 59),
+        rgb(42, 58, 65),
+        rgb(33, 36, 63)
+    );
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+a {
+    color: goldenrod;
+}
+
+.card {
+    background-image: linear-gradient(
+        45deg,
+        transparent,
+        rgb(24, 24, 24),
+        rgb(49, 26, 63),
+        transparent
+    );
+}
+
+.img-with-label p {
+    background-color: black;
+    color: white;
+}
+
+.hashtag {
+    color: rgba(255, 255, 255, 0.3);
 }
