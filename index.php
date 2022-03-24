@@ -25,12 +25,80 @@
 
 <article>
     <h1 id="skills"><span class="hashtag">#</span> Mes compétences</h1>
+
+    <div class="info-box">
+        <img src="style/img/info.png" class="info-icon">
+        <div>
+            <h2>Comment lire les <img src="style/img/star.png" class="star"> ?</h2>
+            <p>
+                Il s'agit du niveau de compétence.
+                <ul>
+                    <li>
+                        <span class="skill-container">
+                            <img src="style/img/star.png" class="star">
+                            <span style="margin-left: 1em;">= Niveau débutant,</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="skill-container">
+                            <img src="style/img/star.png" class="star">
+                            <img src="style/img/star.png" class="star">
+                            <span style="margin-left: 1em;">= Niveau intermédiaire,</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="skill-container">
+                            <img src="style/img/star.png" class="star">
+                            <img src="style/img/star.png" class="star">
+                            <img src="style/img/star.png" class="star">
+                            <span style="margin-left: 1em;">= Niveau confirmé.</span>
+                        </span>
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    
     <div id="skills-container">
     </div>
 </article>
 
 <article id="tools">
     <h1><span class="hashtag">#</span> Mes outils</h1>
+
+    <div class="info-box">
+        <img src="style/img/info.png" class="info-icon">
+        <div>
+            <h2>Comment lire les <img src="style/img/star.png" class="star"> ?</h2>
+            <p>
+                Il s'agit du niveau de compétence.
+                <ul>
+                    <li>
+                        <span class="skill-container">
+                            <img src="style/img/star.png" class="star">
+                            <span style="margin-left: 1em;">= Niveau débutant,</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="skill-container">
+                            <img src="style/img/star.png" class="star">
+                            <img src="style/img/star.png" class="star">
+                            <span style="margin-left: 1em;">= Niveau intermédiaire,</span>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="skill-container">
+                            <img src="style/img/star.png" class="star">
+                            <img src="style/img/star.png" class="star">
+                            <img src="style/img/star.png" class="star">
+                            <span style="margin-left: 1em;">= Niveau confirmé.</span>
+                        </span>
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </div>
+
     <div id="tools-container">
     </div>
 </article>
