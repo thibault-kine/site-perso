@@ -4,8 +4,6 @@ let node = document.createElement('link');
 node.id = 'theme';
 node.rel = 'stylesheet';
 
-// valeur du <select> ("auto" par défaut)
-let theme = document.getElementById('theme-selector').value;
 // bouton qui applique le thème
 let applyBtn = document.getElementById('apply-theme');
 
@@ -14,7 +12,15 @@ time = time.getHours();
 
 function themeManager() {
     
-    if(theme == 'auto' || node.href == 'http://localhost/site-perso/style/auto.css') {
+    // si le node n'a pas été encore créé
+    if(document.getElementById('theme') == null) {
+        document.head.appendChild(node);
+    }
+    else {
+        document.getElementById('theme').href = `style/${document.getElementById('theme-selector').value}.css`;
+    }
+
+    if(document.getElementById('theme-selector').value == 'auto') {
         if(time > 9 && time < 19) {
             // thème pendant la journée
             node.href = 'style/light.css';
@@ -26,16 +32,7 @@ function themeManager() {
     }
     else {
         // thème choisi
-        node.href = `style/${theme}.css`;
-    }
-
-    // si le node n'a pas été encore créé
-    if(document.getElementById('theme') == null) {
-        document.head.appendChild(node);
-    }
-    // si l'ancien thème ne correspond pas à l'ancien
-    else {
-        node.href = `style/${theme}.css`;
+        node.href = `style/${document.getElementById('theme-selector').value}.css`;
     }
 }
 
