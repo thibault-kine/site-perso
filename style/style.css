@@ -13,8 +13,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     border-radius: 0 0 15px 15px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
     padding: 0.5em;
     user-select: none;
 }
@@ -32,6 +32,18 @@ header a {
 
 #theme-select-form * {
     width: 100%;
+    border-width: 0;
+    border-radius: 1em;
+    height: 1.5em;
+    font-family: 'JetBrains Mono';
+    font-weight: bold;
+
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+#theme-select-form *:not(label):hover {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #title {
@@ -41,6 +53,24 @@ header a {
     text-align: center;
 }
 
+#title * {
+    color: black;
+}
+
+#header-links * {
+    padding: 1em 2em;
+    margin: 0;
+    width: 10%;
+    border-radius: 2em;
+
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+#header-links *:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
 /* === CARDS === */
 
 #skills-container, #tools-container {
@@ -48,16 +78,112 @@ header a {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: 'JetBrains Mono';
+    font-weight: bold;
+    margin: auto;
+    padding-top: 2em;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
-    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2em;
+    height: 10em;
+    width: 10em;
     padding: 1em;
+    margin: 1em;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: rotate(5deg) translateY(-10%);
+}
+
+.card * {
+    margin: 0.5em;
 }
 
 .card img {
     width: 5em;
+}
+
+.card .star {
+    width: 1.5em;
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.2));
+    margin: 0;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* === GENERAL === */
+
+p {
+    font-family: 'Roboto Mono';
+}
+
+h1 {
+    font-family: 'JetBrains Mono';
+}
+
+.hashtag {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 10%;
+    border-bottom: 3px double rgba(0, 0, 0, 0.2);
+}
+
+article a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+}
+
+.article p {
+    margin: 0.5em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    line-height: 1.5em;
+}
+
+.img-with-label {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-with-label p {
+    justify-content: center;
+    width: fit-content;
+    padding: 0.1em 0.6em;
+    z-index: -1;
+    margin-top: 1em;
+}
+
+.img-with-label img {
+    height: 11em;
+    margin-left: 1em;
+    border-radius: 100px 100px 100px 0;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
