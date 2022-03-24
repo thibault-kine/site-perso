@@ -1,8 +1,27 @@
 @media screen and (min-width: 1920px) {
     p,
     .info-box,
-    .card 
+    .card,
+    header
     {
         font-size: 130%;
     }
 }
+
+@media screen and (max-width: 770px) {
+    #burger {
+        display: block;
+    }
+
+    #burger-links {
+        height: fit-content;
+    }
+
+    #header-links {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+} 

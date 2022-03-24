@@ -26,6 +26,15 @@
 <body>
 
 <header>
+    <div id="burger-menu">
+        <img src="style/img/menu.png" style="width: 2.5em;">
+        <nav id="burger-links">
+            <a href="">Portfolio</a>
+            <a href="">CV</a>
+            <a href="">Contact</a>
+        </nav>
+    </div>
+
     <span id="title"><a href="index.php">Thibault <br> Kine</a></span>
 
     <div id="header-links">

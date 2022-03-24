@@ -59,7 +59,20 @@ header a {
     transition-duration: 0.5s;
 }
 
+#burger-menu {
+    display: none;
+    width: fit-content;
+    height: 0;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+}
 
+#burger-links {
+    display: none;
+}
 
 /* === CARDS === */
 
