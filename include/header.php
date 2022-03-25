@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -16,7 +14,6 @@
     <!-- === SCRIPTS === -->
     <script src="scripts/themeManager.js"></script>
     <script src="scripts/skillsAndToolsgenerator.js"></script>
-    <script src="scripts/generateInfobox.js"></script>
 
     <!-- === STYLESHEETS === -->
     <link rel="stylesheet" href="style/style.css">
@@ -29,17 +26,29 @@
     <div id="burger-menu">
         <img src="style/img/menu.png" style="width: 2.5em;">
         <nav id="burger-links">
-            <a href="">Portfolio</a>
-            <a href="">CV</a>
-            <a href="">Contact</a>
+            <a href="#skills">Skills & Tools</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#cv">CV</a>
+            <a href="#contact">Contact</a>
         </nav>
     </div>
 
-    <span id="title"><a href="index.php">Thibault <br> Kine</a></span>
+    <form id="theme-form">
+        <label for="theme-select">Style:</label>
+        <select id="theme-select">
+            <option value="auto">Auto</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+        </select>
+        <button type="button" id="apply-btn">Apply</button>
+    </form>
+
+    <span id="title"><a href="#presentation">Thibault <br> Kine</a></span>
 
     <div id="header-links">
-        <a href="">Portfolio</a>
-        <a href="">CV</a>
-        <a href="">Contact</a>
+        <a href="#skills">Skills & Tools</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
     </div>
 </header>
