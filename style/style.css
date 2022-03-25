@@ -23,14 +23,14 @@ header a {
     text-decoration: none;
 }
 
-#theme-select-form {
-    width: 15em;
+#theme-form {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
 }
 
-#theme-select-form * {
+#theme-form * {
     width: 100%;
     border-width: 0;
     border-radius: 1em;

@@ -43,7 +43,7 @@
         <button type="button" id="apply-btn">Apply</button>
     </form>
 
-    <span id="title"><a href="#presentation">Thibault <br> Kine</a></span>
+    <span id="title"><a href="index.php">Thibault <br> Kine</a></span>
 
     <div id="header-links">
         <a href="#skills">Skills & Tools</a>

@@ -23,20 +23,20 @@ request.onload = () => {
         let cardImg = document.createElement('img');
         cardImg.src = skills['skills'][i].imgDir;
 
-        let starContainer = document.createElement('div');
-        starContainer.className = 'skill-container';
+        // let starContainer = document.createElement('div');
+        // starContainer.className = 'skill-container';
 
         card.innerHTML = skills['skills'][i].name;
         skillsContainer.appendChild(card);
-        for(skill = 1; skill <= skills['skills'][i].skillLvl; skill++) {
+        // for(skill = 1; skill <= skills['skills'][i].skillLvl; skill++) {
             
-            let skillLvlImg = document.createElement('img');
-            skillLvlImg.src = 'style/img/star.png';
-            skillLvlImg.className = 'star';
-            starContainer.append(skillLvlImg);
-        }
+        //     let skillLvlImg = document.createElement('img');
+        //     skillLvlImg.src = 'style/img/star.png';
+        //     skillLvlImg.className = 'star';
+        //     starContainer.append(skillLvlImg);
+        // }
         card.prepend(cardImg);
-        card.append(starContainer);
+        // card.append(starContainer);
     }
 
     // 'tools'
@@ -48,20 +48,20 @@ request.onload = () => {
         let cardImg = document.createElement('img');
         cardImg.src = skills['tools'][i].imgDir;
 
-        let starContainer = document.createElement('div');
-        starContainer.className = 'skill-container';
+        // let starContainer = document.createElement('div');
+        // starContainer.className = 'skill-container';
 
         card.innerHTML = skills['tools'][i].name;
         toolsContainer.appendChild(card);
-        for(skill = 1; skill <= skills['tools'][i].skillLvl; skill++) {
+        // for(skill = 1; skill <= skills['tools'][i].skillLvl; skill++) {
 
-            let skillLvlImg = document.createElement('img');
-            skillLvlImg.src = 'style/img/star.png';
-            skillLvlImg.className = 'star'; 
-            starContainer.append(skillLvlImg);
-        }
+        //     let skillLvlImg = document.createElement('img');
+        //     skillLvlImg.src = 'style/img/star.png';
+        //     skillLvlImg.className = 'star'; 
+        //     starContainer.append(skillLvlImg);
+        // }
         card.prepend(cardImg);
-        card.append(starContainer);
+        // card.append(starContainer);
 
     }
 }

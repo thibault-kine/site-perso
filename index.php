@@ -1,31 +1,5 @@
 <?php 
 include "include/header.php" ;
-
-$skillStarTitle = "<h2>Comment lire les <img src='style/img/star.png' class='star'> ?</h2>";
-$skillStarsDesc = "Il s'agit du niveau de compétence.
-<ul>
-    <li>
-        <span class='skill-container'>
-            <img src='style/img/star.png' class='star'>
-            <span style='margin-left: 1em;'>= Niveau débutant,</span>
-        </span>
-    </li>
-    <li>
-        <span class='skill-container'>
-            <img src='style/img/star.png' class='star'>
-            <img src='style/img/star.png' class='star'>
-            <span style='margin-left: 1em;'>= Niveau intermédiaire,</span>
-        </span>
-    </li>
-    <li>
-        <span class='skill-container'>
-            <img src='style/img/star.png' class='star'>
-            <img src='style/img/star.png' class='star'>
-            <img src='style/img/star.png' class='star'>
-            <span style='margin-left: 1em;'>= Niveau confirmé.</span>
-        </span>
-    </li>
-</ul>";
 ?>
 
 <main>
@@ -45,7 +19,7 @@ $skillStarsDesc = "Il s'agit du niveau de compétence.
         </p>
 
         <div class="img-with-label">
-            <img src="style/img/selfie.jpg" alt=""> 
+            <img src="style/img/selfie.jpg"> 
             <p class="label">C'est moi !</p>
         </div>
     </div>
@@ -54,16 +28,12 @@ $skillStarsDesc = "Il s'agit du niveau de compétence.
 <article>
     <h1 id="skills"><span class="hashtag">#</span> Mes compétences</h1>
     
-    <?php ContentGenerator::GenerateInfobox($skillStarTitle, $skillStarsDesc); ?>
-    
     <div id="skills-container">
     </div>
 </article>
 
 <article>
     <h1><span class="hashtag">#</span> Mes outils</h1>
-
-    <?php ContentGenerator::GenerateInfobox($skillStarTitle, $skillStarsDesc); ?>
 
     <div id="tools-container">
     </div>

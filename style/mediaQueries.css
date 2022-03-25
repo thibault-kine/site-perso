@@ -1,20 +1,26 @@
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1600px) {
     p,
     .info-box,
     .card,
     header
     {
-        font-size: 130%;
-    }
-}
-
-@media screen and (max-width: 1600px) {
-    #header-links a {
-        font-size: smaller;
+        font-size: 2em;
     }
 }
 
 @media screen and (max-width: 770px) {
+    p,
+    .info-box,
+    .card,
+    header
+    {
+        font-size: 2em;
+    }
+
+    #theme-form * {
+        font-size: 1em;
+    }
+
     #burger {
         display: block;
     }
