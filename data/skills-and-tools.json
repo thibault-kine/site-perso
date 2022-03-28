@@ -1,24 +1,72 @@
 {
     "skills": [
-        { "name": "HTML5", "imgDir": "style/img/html.png", "skillLvl": 3 },
-        { "name": "CSS3", "imgDir": "style/img/css.png", "skillLvl": 3 },
-        { "name": "PHP", "imgDir": "style/img/php.png", "skillLvl": 2 },
-        { "name": "MySQL", "imgDir": "style/img/mysql.png", "skillLvl": 1 },
-        { "name": "Bootstrap", "imgDir": "style/img/bootstrap.png", "skillLvl": 1 },
-        { "name": "JavaScript", "imgDir": "style/img/js.png", "skillLvl": 1 },
-        { "name": "jQuery", "imgDir": "style/img/jquery.png", "skillLvl": 1 },
-        { "name": "JSON", "imgDir": "style/img/json.png", "skillLvl": 1 },
-        { "name": "Python", "imgDir": "style/img/python.png", "skillLvl": 2 },
-        { "name": "C#", "imgDir": "style/img/cs.png", "skillLvl": 2 },
-        { "name": "C++", "imgDir": "style/img/cpp.png", "skillLvl": 2 }
+        { "name": "HTML5", "imgDir": "style/img/html.png" },
+        { "name": "CSS3", "imgDir": "style/img/css.png" },
+        { "name": "PHP", "imgDir": "style/img/php.png" },
+        { "name": "MySQL", "imgDir": "style/img/mysql.png" },
+        { "name": "Bootstrap", "imgDir": "style/img/bootstrap.png" },
+        { "name": "JavaScript", "imgDir": "style/img/js.png" },
+        { "name": "jQuery", "imgDir": "style/img/jquery.png" },
+        { "name": "JSON", "imgDir": "style/img/json.png" },
+        { "name": "Python", "imgDir": "style/img/python.png" },
+        { "name": "C#", "imgDir": "style/img/cs.png" },
+        { "name": "C++", "imgDir": "style/img/cpp.png" }
     ],
 
     "tools": [
-        { "name": "Unity", "imgDir": "style/img/unity.png", "skillLvl": 2 },
-        { "name": "Unreal Engine 4", "imgDir": "style/img/ue.png", "skillLvl": 1 },
-        { "name": "Visual Studio Code", "imgDir": "style/img/vscode.png", "skillLvl": 3 },
-        { "name": "Suite Office 365", "imgDir": "style/img/office.png", "skillLvl": 2 },
-        { "name": "Suite JetBrains", "imgDir": "style/img/jetbrains.png", "skillLvl": 3 },
-        { "name": "WordPress", "imgDir": "style/img/wp.png", "skillLvl": 2}
+        { "name": "Unity", "imgDir": "style/img/unity.png" },
+        { "name": "Unreal Engine 4", "imgDir": "style/img/ue.png" },
+        { "name": "Visual Studio Code", "imgDir": "style/img/vscode.png" },
+        { "name": "Suite Office 365", "imgDir": "style/img/office.png" },
+        { "name": "Suite JetBrains", "imgDir": "style/img/jetbrains.png" },
+        { "name": "WordPress", "imgDir": "style/img/wp.png" },
+        { "name": "Git", "imgDir": "style/img/git.png" },
+        { "name": "GitHub", "imgDir": "style/img/github.png" },
+        { "name": "GitHub Copilot", "imgDir": "style/img/copilot.png" }
+    ],
+
+    "projects":[
+        { "name": "Voyages", "imgDir": "style/img/portfolio/voyages.png", "languages": [
+            { "name": "HTML", "imgDir": "style/img/html.png"}, 
+            { "name": "CSS", "imgDir": "style/img/css.png" }
+        ], "repo": "https://github.com/thibault-kine/voyages" },
+
+        { "name": "App Favorites", "imgDir": "style/img/portfolio/apps-fav.png", "languages": [
+            { "name": "HTML", "imgDir": "style/img/html.png"}, 
+            { "name": "CSS", "imgDir": "style/img/css.png" }
+        ], "repo": "https://github.com/thibault-kine/app-favorites" },
+
+        { "name": "Agenda", "imgDir": "style/img/portfolio/agenda.png", "languages": [
+            { "name": "HTML", "imgDir": "style/img/html.png"}, 
+            { "name": "CSS", "imgDir": "style/img/css.png" }
+        ], "repo": "https://github.com/thibault-kine/agenda" },
+
+        { "name": "Module Connexion", "imgDir": "style/img/portfolio/module-co.png", "languages": [
+            { "name": "HTML", "imgDir": "style/img/html.png"}, 
+            { "name": "CSS", "imgDir": "style/img/css.png" },
+            { "name": "PHP", "imgDir": "style/img/php.png" },
+            { "name": "MySQL", "imgDir": "style/img/mysql.png" }
+        ], "repo": "https://github.com/thibault-kine/module-connexion" },
+
+        { "name": "Livre d'Or", "imgDir": "style/img/portfolio/livre-or.png", "languages": [
+            { "name": "HTML", "imgDir": "style/img/html.png"}, 
+            { "name": "CSS", "imgDir": "style/img/css.png" },
+            { "name": "PHP", "imgDir": "style/img/php.png" },
+            { "name": "MySQL", "imgDir": "style/img/mysql.png" }
+        ], "repo": "https://github.com/thibault-kine/livre-or" },
+
+        { "name": "Réservation Salle", "imgDir": "style/img/portfolio/salles.png", "languages": [
+            { "name": "HTML", "imgDir": "style/img/html.png"}, 
+            { "name": "CSS", "imgDir": "style/img/css.png" },
+            { "name": "PHP", "imgDir": "style/img/php.png" },
+            { "name": "MySQL", "imgDir": "style/img/mysql.png" }
+        ], "repo": "https://github.com/thibault-kine/reservation-salle" },
+        
+        { "name": "Blog", "imgDir": "style/img/portfolio/blog.png", "languages": [
+            { "name": "HTML", "imgDir": "style/img/html.png"}, 
+            { "name": "CSS", "imgDir": "style/img/css.png" },
+            { "name": "PHP", "imgDir": "style/img/php.png" },
+            { "name": "MySQL", "imgDir": "style/img/mysql.png" }
+        ], "repo": "https://github.com/thibault-kine/blog" }
     ]
 }

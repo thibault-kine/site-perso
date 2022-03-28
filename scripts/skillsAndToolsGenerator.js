@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const skillsContainer = document.getElementById('skills-container');
 const toolsContainer  = document.getElementById('tools-container');
+const projectsContainer = document.getElementById('projects-container'); 
 
 var fileURL = './data/skills-and-tools.json';
 var request = new XMLHttpRequest();
@@ -62,7 +63,37 @@ request.onload = () => {
         // }
         card.prepend(cardImg);
         // card.append(starContainer);
+    }
 
+    // 'projects'   
+    for(let i = 0; i < skills['projects'].length; i++) {
+
+        let link = document.createElement('a');
+        link.target = '_blank';
+        link.href = skills['projects'][i].repo;
+
+        let card = document.createElement('div');
+        card.className = 'project-card';
+
+        let cardImg = document.createElement('img');
+        cardImg.src = skills['projects'][i].imgDir;
+
+        let langContainer = document.createElement('div');
+        langContainer.className = 'lang-container';
+
+        card.innerHTML = skills['projects'][i].name;
+        projectsContainer.appendChild(link);
+        link.appendChild(card);
+
+        for(let j = 0; j < skills['projects'][i].languages.length; j++) {
+            let lang = document.createElement('img');
+            lang.src = skills['projects'][i].languages[j].imgDir;
+            lang.className = 'lang';
+            langContainer.appendChild(lang);
+        }
+        
+        card.prepend(cardImg);
+        card.append(langContainer);
     }
 }
 })

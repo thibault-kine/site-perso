@@ -4,8 +4,8 @@ include "include/header.php" ;
 
 <main>
 
-<article>
-    <h1 id="presentation"><span class="hashtag">#</span> Qui suis-je ?</h1>
+<article id="me">
+    <h1><span class="hashtag">#</span> Qui suis-je ?</h1>
     <div class="article">
         <p>
             Je m'appelle <strong>Thibault Kine</strong>, j'ai 20 ans et je suis actuellement en formation
@@ -25,17 +25,24 @@ include "include/header.php" ;
     </div>
 </article>
 
-<article>
-    <h1 id="skills"><span class="hashtag">#</span> Mes compétences</h1>
+<article id="skills">
+    <h1><span class="hashtag">#</span> Mes compétences</h1>
     
     <div id="skills-container">
     </div>
 </article>
 
-<article>
+<article id="tools">
     <h1><span class="hashtag">#</span> Mes outils</h1>
 
     <div id="tools-container">
+    </div>
+</article>
+
+<article id="portfolio">
+    <h1><span class="hashtag">#</span> Mes projets</h1>
+
+    <div id="projects-container">
     </div>
 </article>
 

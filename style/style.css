@@ -76,7 +76,7 @@ header a {
 
 /* === CARDS === */
 
-#skills-container, #tools-container {
+#skills-container, #tools-container, #projects-container {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -87,7 +87,7 @@ header a {
     padding-top: 2em;
 }
 
-.card {
+.card, .project-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,6 +126,28 @@ header a {
     filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.2));
     margin: 0;
     align-items: center;
+}
+
+.project-card {
+    width: 15em;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-card img {
+    width: 80%;
+    border-radius: 1em;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+.project-card .lang {
+    width: 2em;
+    border-radius: 0;
 }
 
 /* === GENERAL === */

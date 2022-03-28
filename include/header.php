@@ -26,7 +26,9 @@
     <div id="burger-menu">
         <img src="style/img/menu.png" style="width: 2.5em;">
         <nav id="burger-links">
-            <a href="#skills">Skills & Tools</a>
+            <a href="#me">Présentation</a>
+            <a href="#skills">Compétences</a>
+            <a href="#tools">Outils</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#cv">CV</a>
             <a href="#contact">Contact</a>
@@ -46,7 +48,9 @@
     <span id="title"><a href="index.php">Thibault <br> Kine</a></span>
 
     <div id="header-links">
-        <a href="#skills">Skills & Tools</a>
+        <a href="#me">Présentation</a>
+        <a href="#skills">Compétences</a>
+        <a href="#tools">Outils</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
