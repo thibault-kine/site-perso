@@ -17,6 +17,9 @@ header {
     box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
     padding: 0.5em;
     user-select: none;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 header a {
@@ -145,6 +148,11 @@ header a {
     text-decoration: underline;
 }
 
+.project-card p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .project-card .lang {
     width: 2em;
     border-radius: 0;
@@ -251,4 +259,17 @@ article a {
 ul {
     list-style: none;
     font-family: 'Roboto Mono';
+    margin-left: 2em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+ul p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+li {
+    margin-left: 3em;
 }

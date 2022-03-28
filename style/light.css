@@ -1,5 +1,9 @@
 header {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(
+        to bottom,
+        white,
+        rgba(255, 255, 255, 0.5)
+    );
 }
 
 #header-links *:hover {

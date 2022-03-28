@@ -60,7 +60,7 @@
             { "name": "CSS", "imgDir": "style/img/css.png" },
             { "name": "PHP", "imgDir": "style/img/php.png" },
             { "name": "MySQL", "imgDir": "style/img/mysql.png" }
-        ], "repo": "https://github.com/thibault-kine/reservation-salle" },
+        ], "repo": "https://github.com/thibault-kine/reservations-salles" },
         
         { "name": "Blog", "imgDir": "style/img/portfolio/blog.png", "languages": [
             { "name": "HTML", "imgDir": "style/img/html.png"}, 

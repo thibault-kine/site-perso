@@ -75,13 +75,16 @@ request.onload = () => {
         let card = document.createElement('div');
         card.className = 'project-card';
 
+        let title = document.createElement('p');
+
         let cardImg = document.createElement('img');
         cardImg.src = skills['projects'][i].imgDir;
 
         let langContainer = document.createElement('div');
         langContainer.className = 'lang-container';
 
-        card.innerHTML = skills['projects'][i].name;
+        title.innerHTML = skills['projects'][i].name;
+        card.appendChild(title);
         projectsContainer.appendChild(link);
         link.appendChild(card);
 
