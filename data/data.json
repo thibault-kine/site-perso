@@ -68,5 +68,12 @@
             { "name": "PHP", "imgDir": "style/img/php.png" },
             { "name": "MySQL", "imgDir": "style/img/mysql.png" }
         ], "repo": "https://github.com/thibault-kine/blog" }
+    ],
+
+    "contacts": [
+       { "name": "Github", "imgDir": "style/img/github.png", "link": "https://github.com/thibault-kine" },
+       { "name": "Linkedin", "imgDir": "style/img/linkedin.png", "link": "https://www.linkedin.com/in/thibault-kine-215a77231/" },
+       { "name": "Email", "imgDir": "style/img/gmail.png", "link": "mailto:thibault.kine@laplateforme.io" },
+       { "name": "Téléphone", "imgDir": "style/img/phone.png", "link": "tel:+3378646700" }
     ]
 }

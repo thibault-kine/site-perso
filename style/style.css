@@ -79,7 +79,7 @@ header a {
 
 /* === CARDS === */
 
-#skills-container, #tools-container, #projects-container {
+#skills-container, #tools-container, #projects-container, #contacts-container {
     display: flex;
     justify-content: center;
     flex-direction: row;

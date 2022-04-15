@@ -28,18 +28,19 @@ include "include/header.php" ;
 <article id="skills">
     <h1><span class="hashtag">#</span> Mes compétences</h1>
     <p>
-        Voici les compétences que j'ai acquises durant ma formation à LaPlateforme_. Il s'agit des languages, frameworks et APIs que j'ai appris à utiliser, 
+        Voici les compétences que j'ai acquises durant ma formation. Il s'agit des languages, frameworks et APIs que j'ai appris à utiliser, 
         que ce soit en autodidacte ou à LaPlateforme_.
     </p>
 
-    <div id="skills-container">
+    <div id="skills-container" class="container">
     </div>
 </article>
 
 <article id="tools">
     <h1><span class="hashtag">#</span> Mes outils</h1>
     <p>
-        Il s'agit des outils (IDE, CMS, Git..) que j'utilise tous les jours dans ma vie de développeur.
+        Il s'agit des outils (IDE, CMS, Git..) que j'utilise tous les jours dans ma vie de développeur.<br>
+        Je juge également bon de souligner que je suis passionné par le développement de jeux vidéo, d'où la présence de Unity et UE4.<br>
         J'utilise GitHub Copilot en partie pour m'assister à la création de fonctionnalités complexes ; Un bon développeur est un développeur fainéant !
     </p>
 
@@ -58,11 +59,11 @@ include "include/header.php" ;
     <?php 
     ContentGenerator::GenerateInfobox(
         "Astuce !",
-        "Cliquez sur les \"cartes\" pour voir le repo GitHub du projet.",
+        "Cliquez sur les \"cartes\" pour accéder au repo GitHub du projet.",
     )
     ?>
 
-    <div id="projects-container">
+    <div id="projects-container" class="container">
     </div>
 </article>
 
@@ -81,9 +82,16 @@ include "include/header.php" ;
 
     <ul><p>Expériences 👔</p>
         <li>Stage chez <i><a href="http://www.mcii-provence.com/">MCII-Provence</a></i>, une société d'assistance informatique (Pertuis), 2016</li>
-        <li>Job d'été chez <i><a href="https://www.mcdonalds.fr/">McDonald's<a></i> (Pertuis), 2018</li>
+        <li>Job d'été chez <i><a href="https://www.mcdonalds.fr/">McDonald's</a></i> (Pertuis), 2018</li>
         <li>Stage chez <i><a href="https://cppdigitalmedia.com/">CPP Digital Media</a></i>, une société de développement web (Pertuis), 2020</li>
     </ul>
+</article>
+
+<article id="contact">
+    <h1><span class="hashtag">#</span> Me Contacter</h1>
+
+    <div id="contacts-container" class="container">
+    </div>
 </article>
 
 </main>

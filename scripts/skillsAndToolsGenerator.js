@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
 const skillsContainer = document.getElementById('skills-container');
 const toolsContainer  = document.getElementById('tools-container');
 const projectsContainer = document.getElementById('projects-container'); 
+const contactsContainer = document.getElementById('contacts-container');
 
-var fileURL = './data/skills-and-tools.json';
+var fileURL = './data/data.json';
 var request = new XMLHttpRequest();
 
 request.open('GET', fileURL);
@@ -97,6 +98,27 @@ request.onload = () => {
         
         card.prepend(cardImg);
         card.append(langContainer);
+    }
+
+    // 'contacts'
+    for(let i = 0; i < skills['contacts'].length; i++) {
+
+        let link = document.createElement('a');
+        link.href = skills['contacts'][i].link;
+        
+        let title = document.createElement('p');
+        title.innerHTML = skills['contacts'][i].name;
+
+        let card = document.createElement('div');
+        card.className = 'card';
+
+        let cardImg = document.createElement('img');
+        cardImg.src = skills['contacts'][i].imgDir;
+        
+        card.appendChild(title);
+        contactsContainer.appendChild(link);
+        link.appendChild(card);
+        card.prepend(cardImg);
     }
 }
 })
