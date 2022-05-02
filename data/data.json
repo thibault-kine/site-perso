@@ -7,6 +7,7 @@
         { "name": "Bootstrap", "imgDir": "style/img/bootstrap.png" },
         { "name": "JavaScript", "imgDir": "style/img/js.png" },
         { "name": "jQuery", "imgDir": "style/img/jquery.png" },
+        { "name": "Fetch API", "imgDir":"style/img/fetch.png"},
         { "name": "JSON", "imgDir": "style/img/json.png" },
         { "name": "Python", "imgDir": "style/img/python.png" },
         { "name": "C#", "imgDir": "style/img/cs.png" },
@@ -22,7 +23,8 @@
         { "name": "WordPress", "imgDir": "style/img/wp.png" },
         { "name": "Git", "imgDir": "style/img/git.png" },
         { "name": "GitHub", "imgDir": "style/img/github.png" },
-        { "name": "GitHub Copilot", "imgDir": "style/img/copilot.png" }
+        { "name": "GitHub Copilot", "imgDir": "style/img/copilot.png" },
+        { "name": "Google", "imgDir": "style/img/google.png"}
     ],
 
     "projects":[
