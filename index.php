@@ -80,10 +80,26 @@ include "include/header.php" ;
         <li>LaPlateforme_ (Marseille 2e), 2021 - en cours</li>
     </ul>
 
-    <ul><p>Expériences 👔</p>
+    <ul><p>Expériences professionnelles 👔</p>
         <li>Stage chez <i><a href="http://www.mcii-provence.com/">MCII-Provence</a></i>, une société d'assistance informatique (Pertuis), 2016</li>
+        <ul>
+            <li>- Apprentissage des bases du hardware</li>
+        </ul>
         <li>Job d'été chez <i><a href="https://www.mcdonalds.fr/">McDonald's</a></i> (Pertuis), 2018</li>
+        <ul>
+            <li>- Discipline</li>
+            <li>- Spontanéité</li>
+            <li>- Esprit d'équipe</li>
+        </ul>
         <li>Stage chez <i><a href="https://cppdigitalmedia.com/">CPP Digital Media</a></i>, une société de développement web (Pertuis), 2020</li>
+        <ul>
+            <li>- Bases du Webdev</li>
+        </ul>
+        <li>Stage chez <i><a href="https://www.yogan-developpement.fr/">Yogan Développement</a></i>, une société de développement logiciel et web (Pertuis), 2021</li>
+        <ul>
+            <li>- Découverte de Windev et Webdev</li>
+            <li>- Apprentissage de l'utilisation de bases de données</li>
+        </ul>
     </ul>
 </article>
 
@@ -95,3 +111,5 @@ include "include/header.php" ;
 </article>
 
 </main>
+
+<?php include_once "include/footer.php" ?>

@@ -6,6 +6,14 @@ header {
     );
 }
 
+footer {
+    background-image: linear-gradient(
+        to top,
+        black,
+        rgba(0, 0, 0, 0.7)
+    );
+}
+
 #header-links *:hover {
     background-color: rgba(0, 0, 0, 0.4);
 }
