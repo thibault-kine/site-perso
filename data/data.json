@@ -29,45 +29,45 @@
         { "name": "Voyages", "imgDir": "style/img/portfolio/voyages.png", "languages": [
             { "name": "HTML", "imgDir": "style/img/html.png"}, 
             { "name": "CSS", "imgDir": "style/img/css.png" }
-        ], "repo": "https://github.com/thibault-kine/voyages" },
+        ], "repo": "https://github.com/thibault-kine/voyages/blob/main/voyage3.html" },
 
         { "name": "App Favorites", "imgDir": "style/img/portfolio/apps-fav.png", "languages": [
             { "name": "HTML", "imgDir": "style/img/html.png"}, 
             { "name": "CSS", "imgDir": "style/img/css.png" }
-        ], "repo": "https://github.com/thibault-kine/app-favorites" },
+        ], "repo": "https://github.com/thibault-kine/app-favorites/blob/main/app-favorites.html" },
 
         { "name": "Agenda", "imgDir": "style/img/portfolio/agenda.png", "languages": [
             { "name": "HTML", "imgDir": "style/img/html.png"}, 
             { "name": "CSS", "imgDir": "style/img/css.png" }
-        ], "repo": "https://github.com/thibault-kine/agenda" },
+        ], "repo": "https://github.com/thibault-kine/agenda/blob/main/agenda.html" },
 
         { "name": "Module Connexion", "imgDir": "style/img/portfolio/module-co.png", "languages": [
             { "name": "HTML", "imgDir": "style/img/html.png"}, 
             { "name": "CSS", "imgDir": "style/img/css.png" },
             { "name": "PHP", "imgDir": "style/img/php.png" },
             { "name": "MySQL", "imgDir": "style/img/mysql.png" }
-        ], "repo": "https://github.com/thibault-kine/module-connexion" },
+        ], "repo": "https://github.com/thibault-kine/module-connexion/blob/main/module%20connexion/index.php" },
 
         { "name": "Livre d'Or", "imgDir": "style/img/portfolio/livre-or.png", "languages": [
             { "name": "HTML", "imgDir": "style/img/html.png"}, 
             { "name": "CSS", "imgDir": "style/img/css.png" },
             { "name": "PHP", "imgDir": "style/img/php.png" },
             { "name": "MySQL", "imgDir": "style/img/mysql.png" }
-        ], "repo": "https://github.com/thibault-kine/livre-or" },
+        ], "repo": "https://github.com/thibault-kine/livre-or/blob/main/index.php" },
 
         { "name": "Réservation Salle", "imgDir": "style/img/portfolio/salles.png", "languages": [
             { "name": "HTML", "imgDir": "style/img/html.png"}, 
             { "name": "CSS", "imgDir": "style/img/css.png" },
             { "name": "PHP", "imgDir": "style/img/php.png" },
             { "name": "MySQL", "imgDir": "style/img/mysql.png" }
-        ], "repo": "https://github.com/thibault-kine/reservations-salles" },
+        ], "repo": "https://github.com/thibault-kine/reservations-salles/blob/main/planning.php" },
         
         { "name": "Blog", "imgDir": "style/img/portfolio/blog.png", "languages": [
             { "name": "HTML", "imgDir": "style/img/html.png"}, 
             { "name": "CSS", "imgDir": "style/img/css.png" },
             { "name": "PHP", "imgDir": "style/img/php.png" },
             { "name": "MySQL", "imgDir": "style/img/mysql.png" }
-        ], "repo": "https://github.com/thibault-kine/blog" }
+        ], "repo": "https://github.com/thibault-kine/blog/blob/main/index.php" }
     ],
 
     "contacts": [

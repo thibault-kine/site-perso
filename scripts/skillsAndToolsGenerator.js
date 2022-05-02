@@ -14,21 +14,21 @@ request.send();
 
 request.onload = () => {
     var skillsText = request.response;
-    var skills = JSON.parse(skillsText);
+    var data = JSON.parse(skillsText);
     
     // 'skills'
-    for(let i = 0; i < skills['skills'].length; i++) {
+    for(let i = 0; i < data['skills'].length; i++) {
         
         let card = document.createElement('div');
         card.className = 'card';
 
         let cardImg = document.createElement('img');
-        cardImg.src = skills['skills'][i].imgDir;
+        cardImg.src = data['skills'][i].imgDir;
 
         // let starContainer = document.createElement('div');
         // starContainer.className = 'skill-container';
 
-        card.innerHTML = skills['skills'][i].name;
+        card.innerHTML = data['skills'][i].name;
         skillsContainer.appendChild(card);
         // for(skill = 1; skill <= skills['skills'][i].skillLvl; skill++) {
             
@@ -42,18 +42,18 @@ request.onload = () => {
     }
 
     // 'tools'
-    for(let i = 0; i < skills['tools'].length; i++) {
+    for(let i = 0; i < data['tools'].length; i++) {
         
         let card = document.createElement('div');
         card.className = 'card';
 
         let cardImg = document.createElement('img');
-        cardImg.src = skills['tools'][i].imgDir;
+        cardImg.src = data['tools'][i].imgDir;
 
         // let starContainer = document.createElement('div');
         // starContainer.className = 'skill-container';
 
-        card.innerHTML = skills['tools'][i].name;
+        card.innerHTML = data['tools'][i].name;
         toolsContainer.appendChild(card);
         // for(skill = 1; skill <= skills['tools'][i].skillLvl; skill++) {
 
@@ -67,53 +67,52 @@ request.onload = () => {
     }
 
     // 'projects'   
-    for(let i = 0; i < skills['projects'].length; i++) {
+    for(let i = 0; i < data['projects'].length; i++) {
 
         let link = document.createElement('a');
         link.target = '_blank';
-        link.href = skills['projects'][i].repo;
+        link.href = data['projects'][i].repo;
 
         let card = document.createElement('div');
         card.className = 'project-card';
 
         let title = document.createElement('p');
+        title.innerHTML = data['projects'][i].name;
 
         let cardImg = document.createElement('img');
-        cardImg.src = skills['projects'][i].imgDir;
+        cardImg.src = data['projects'][i].imgDir;
 
         let langContainer = document.createElement('div');
         langContainer.className = 'lang-container';
-
-        title.innerHTML = skills['projects'][i].name;
+        
+        for(let j = 0; j < data['projects'][i].languages.length; j++) {
+            let lang = document.createElement('img');
+            lang.src = data['projects'][i].languages[j].imgDir;
+            lang.className = 'lang';
+            langContainer.append(lang);
+        }
+        
         card.appendChild(title);
         projectsContainer.appendChild(link);
         link.appendChild(card);
-
-        for(let j = 0; j < skills['projects'][i].languages.length; j++) {
-            let lang = document.createElement('img');
-            lang.src = skills['projects'][i].languages[j].imgDir;
-            lang.className = 'lang';
-            langContainer.appendChild(lang);
-        }
-        
         card.prepend(cardImg);
         card.append(langContainer);
     }
 
     // 'contacts'
-    for(let i = 0; i < skills['contacts'].length; i++) {
+    for(let i = 0; i < data['contacts'].length; i++) {
 
         let link = document.createElement('a');
-        link.href = skills['contacts'][i].link;
+        link.href = data['contacts'][i].link;
         
         let title = document.createElement('p');
-        title.innerHTML = skills['contacts'][i].name;
+        title.innerHTML = data['contacts'][i].name;
 
         let card = document.createElement('div');
         card.className = 'card';
 
         let cardImg = document.createElement('img');
-        cardImg.src = skills['contacts'][i].imgDir;
+        cardImg.src = data['contacts'][i].imgDir;
         
         card.appendChild(title);
         contactsContainer.appendChild(link);
