@@ -60,3 +60,11 @@ a {
 .hashtag {
     color: rgba(255, 255, 255, 0.3);
 }
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.btn * {
+    color: white;
+}

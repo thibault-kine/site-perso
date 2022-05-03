@@ -81,7 +81,7 @@ include "include/header.php" ;
     </ul>
 
     <ul><p>Expériences professionnelles 👔</p>
-        <li>Stage chez <i><a href="http://www.mcii-provence.com/">MCII-Provence</a></i>, une société d'assistance informatique (Pertuis), 2016</li>
+        <li>Stage chez <i><a href="http://www.mcii-provence.com/">MCII-Provence</a></i>, une société d'assistance informatique (Pertuis), 2017</li>
         <ul>
             <li>- Apprentissage des bases du hardware</li>
         </ul>
@@ -93,7 +93,7 @@ include "include/header.php" ;
         </ul>
         <li>Stage chez <i><a href="https://cppdigitalmedia.com/">CPP Digital Media</a></i>, une société de développement web (Pertuis), 2020</li>
         <ul>
-            <li>- Bases du Webdev</li>
+            <li>- Bases du développement web</li>
         </ul>
         <li>Stage chez <i><a href="https://www.yogan-developpement.fr/">Yogan Développement</a></i>, une société de développement logiciel et web (Pertuis), 2021</li>
         <ul>
@@ -101,6 +101,10 @@ include "include/header.php" ;
             <li>- Apprentissage de l'utilisation de bases de données</li>
         </ul>
     </ul>
+
+    <a href="" download="cv.pdf" class="btn">
+        Télécharger le CV complet
+    </a>
 </article>
 
 <article id="contact">

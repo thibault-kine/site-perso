@@ -8,7 +8,6 @@
 /* === HEADER === */
 
 header {
-    font-family: 'JetBrains Mono';
     font-weight: bold;
     display: flex;
     justify-content: space-between;
@@ -20,6 +19,10 @@ header {
     position: sticky;
     top: 0;
     z-index: 2;
+}
+
+header, footer {
+    font-family: "Roboto Mono";
 }
 
 footer {
@@ -279,4 +282,22 @@ ul p {
 
 li {
     margin-left: 3em;
+}
+
+.btn {
+    padding: 1em;
+    width: fit-content;
+    border-width: 0;
+    border-radius: 1.5em;
+    justify-content: center;
+}
+
+.btn {
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    cursor: pointer;
 }
