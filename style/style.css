@@ -227,10 +227,11 @@ article a {
     padding: 0.1em 0.6em;
     z-index: -1;
     margin-top: 1em;
+    font-size: 1em + 100%;
 }
 
 .img-with-label img {
-    height: 11em;
+    width: 70%;
     margin-left: 1em;
     border-radius: 100px 100px 100px 0;
     box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.2);
